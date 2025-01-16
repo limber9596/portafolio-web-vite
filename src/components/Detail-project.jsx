@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ViewMobile from "./view-mob";
-import ViewPc from "./view-pc";
+import ViewMobile from "./View-mob";
+import ViewPc from "./View-pc";
 import ViewsProject from "./ViewsProject";
 const DetailProject = () => {
   const [vista, setVista] = useState("pc");
